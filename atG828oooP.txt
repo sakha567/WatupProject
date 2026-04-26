@@ -1,0 +1,1 @@
+print('list kata yang ini sudah tidak di pakai. di karenakan kata yang dikit dan tidak lengkap')
