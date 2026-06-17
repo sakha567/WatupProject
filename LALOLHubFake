@@ -1,0 +1,1466 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
+
+-- Instances: 46 | Scripts: 7 | Modules: 3 | Tags: 0
+local G2L = {};
+
+-- StarterGui.LALOL Hub Backdoor
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[LALOL Hub Backdoor]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["Visible"] = false;
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Size"] = UDim2.new(0, 482, 0, 276);
+G2L["2"]["Position"] = UDim2.new(0.13831, 0, 0.24503, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Name"] = [[LALOL Hub Backdoor Frame]];
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.UICorner
+G2L["3"] = Instance.new("UICorner", G2L["2"]);
+G2L["3"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.UIStroke
+G2L["4"] = Instance.new("UIStroke", G2L["2"]);
+G2L["4"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.UIStroke.UIGradient
+G2L["5"] = Instance.new("UIGradient", G2L["4"]);
+G2L["5"]["Rotation"] = 50;
+G2L["5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 5)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 6, 255))};
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.LALOL HUB BACKDOOR Label
+G2L["6"] = Instance.new("TextLabel", G2L["2"]);
+G2L["6"]["BorderSizePixel"] = 0;
+G2L["6"]["TextSize"] = 52;
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["BackgroundTransparency"] = 1;
+G2L["6"]["Size"] = UDim2.new(0, 481, 0, 64);
+G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["Text"] = [[LALOL Hub Backdoor]];
+G2L["6"]["Name"] = [[LALOL HUB BACKDOOR Label]];
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.LALOL HUB BACKDOOR Label.UIStroke
+G2L["7"] = Instance.new("UIStroke", G2L["6"]);
+G2L["7"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.LALOL HUB BACKDOOR Label.UIStroke.UIGradient
+G2L["8"] = Instance.new("UIGradient", G2L["7"]);
+G2L["8"]["Rotation"] = 50;
+G2L["8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.TextBox
+G2L["9"] = Instance.new("TextBox", G2L["2"]);
+G2L["9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["9"]["BorderSizePixel"] = 0;
+G2L["9"]["TextWrapped"] = true;
+G2L["9"]["TextSize"] = 14;
+G2L["9"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["9"]["BackgroundColor3"] = Color3.fromRGB(64, 64, 64);
+G2L["9"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9"]["MultiLine"] = true;
+G2L["9"]["ClearTextOnFocus"] = false;
+G2L["9"]["PlaceholderText"] = [[require(666666).load("c00lkidd")]];
+G2L["9"]["Size"] = UDim2.new(0, 456, 0, 161);
+G2L["9"]["Position"] = UDim2.new(0.0249, 0, 0.23188, 0);
+G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["Text"] = [[]];
+G2L["9"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.TextBox.UICorner
+G2L["a"] = Instance.new("UICorner", G2L["9"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.TextBox.UIPadding
+G2L["b"] = Instance.new("UIPadding", G2L["9"]);
+G2L["b"]["PaddingTop"] = UDim.new(0, 7);
+G2L["b"]["PaddingLeft"] = UDim.new(0, 7);
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.TextBox.Highlight
+G2L["c"] = Instance.new("LocalScript", G2L["9"]);
+G2L["c"]["Name"] = [[Highlight]];
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.TextBox.Highlight.HighlighterModule
+G2L["d"] = Instance.new("ModuleScript", G2L["c"]);
+G2L["d"]["Name"] = [[HighlighterModule]];
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.TextBox.Highlight.HighlighterModule.Lexer
+G2L["e"] = Instance.new("ModuleScript", G2L["d"]);
+G2L["e"]["Name"] = [[Lexer]];
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.TextBox.Highlight.HighlighterModule.Lexer.Language
+G2L["f"] = Instance.new("ModuleScript", G2L["e"]);
+G2L["f"]["Name"] = [[Language]];
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Execute
+G2L["10"] = Instance.new("TextButton", G2L["2"]);
+G2L["10"]["BorderSizePixel"] = 0;
+G2L["10"]["TextSize"] = 22;
+G2L["10"]["TextColor3"] = Color3.fromRGB(0, 255, 0);
+G2L["10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10"]["BackgroundTransparency"] = 1;
+G2L["10"]["Size"] = UDim2.new(0, 292, 0, 31);
+G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["Text"] = [[Execute]];
+G2L["10"]["Name"] = [[Execute]];
+G2L["10"]["Position"] = UDim2.new(0.0249, 0, 0.85507, 0);
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Execute.UICorner
+G2L["11"] = Instance.new("UICorner", G2L["10"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Execute.Execute.UIStroke
+G2L["12"] = Instance.new("Frame", G2L["10"]);
+G2L["12"]["BorderSizePixel"] = 0;
+G2L["12"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12"]["Size"] = UDim2.new(0, 292, 0, 30);
+G2L["12"]["Position"] = UDim2.new(-0.00032, 0, 0, 0);
+G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12"]["Name"] = [[Execute.UIStroke]];
+G2L["12"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Execute.Execute.UIStroke.UICorner
+G2L["13"] = Instance.new("UICorner", G2L["12"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Execute.Execute.UIStroke.UIStroke
+G2L["14"] = Instance.new("UIStroke", G2L["12"]);
+G2L["14"]["Thickness"] = 0.9;
+G2L["14"]["Color"] = Color3.fromRGB(60, 254, 0);
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Execute.LocalScript
+G2L["15"] = Instance.new("LocalScript", G2L["10"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Clear
+G2L["16"] = Instance.new("TextButton", G2L["2"]);
+G2L["16"]["BorderSizePixel"] = 0;
+G2L["16"]["TextSize"] = 22;
+G2L["16"]["TextColor3"] = Color3.fromRGB(0, 255, 255);
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["16"]["BackgroundTransparency"] = 1;
+G2L["16"]["Size"] = UDim2.new(0, 157, 0, 31);
+G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["Text"] = [[Clear]];
+G2L["16"]["Name"] = [[Clear]];
+G2L["16"]["Position"] = UDim2.new(0.64523, 0, 0.85507, 0);
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Clear.UICorner
+G2L["17"] = Instance.new("UICorner", G2L["16"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Clear.Execute.UIStroke
+G2L["18"] = Instance.new("Frame", G2L["16"]);
+G2L["18"]["BorderSizePixel"] = 0;
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["Size"] = UDim2.new(0, 157, 0, 30);
+G2L["18"]["Position"] = UDim2.new(-0.00032, 0, 0, 0);
+G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["Name"] = [[Execute.UIStroke]];
+G2L["18"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Clear.Execute.UIStroke.UICorner
+G2L["19"] = Instance.new("UICorner", G2L["18"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Clear.Execute.UIStroke.UIStroke
+G2L["1a"] = Instance.new("UIStroke", G2L["18"]);
+G2L["1a"]["Thickness"] = 0.9;
+G2L["1a"]["Color"] = Color3.fromRGB(0, 254, 237);
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Clear.LocalScript
+G2L["1b"] = Instance.new("LocalScript", G2L["16"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Smooth GUI Dragging
+G2L["1c"] = Instance.new("LocalScript", G2L["2"]);
+-- [ERROR] cannot convert Capabilities, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["1c"]["Sandboxed"] = true;
+G2L["1c"]["Name"] = [[Smooth GUI Dragging]];
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan
+G2L["1d"] = Instance.new("Frame", G2L["1"]);
+G2L["1d"]["BorderSizePixel"] = 0;
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Size"] = UDim2.new(0, 482, 0, 276);
+G2L["1d"]["Position"] = UDim2.new(0.13831, 0, 0.24503, 0);
+G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Name"] = [[Scan]];
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.UICorner
+G2L["1e"] = Instance.new("UICorner", G2L["1d"]);
+G2L["1e"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.LALOL HUB BACKDOOR Label
+G2L["1f"] = Instance.new("TextLabel", G2L["1d"]);
+G2L["1f"]["BorderSizePixel"] = 0;
+G2L["1f"]["TextSize"] = 52;
+G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f"]["BackgroundTransparency"] = 1;
+G2L["1f"]["Size"] = UDim2.new(0, 481, 0, 64);
+G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f"]["Text"] = [[LALOL Hub Backdoor]];
+G2L["1f"]["Name"] = [[LALOL HUB BACKDOOR Label]];
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.LALOL HUB BACKDOOR Label.UIStroke
+G2L["20"] = Instance.new("UIStroke", G2L["1f"]);
+G2L["20"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.LALOL HUB BACKDOOR Label.UIStroke.UIGradient
+G2L["21"] = Instance.new("UIGradient", G2L["20"]);
+G2L["21"]["Rotation"] = 50;
+G2L["21"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton
+G2L["22"] = Instance.new("TextButton", G2L["1d"]);
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["TextSize"] = 43;
+G2L["22"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["22"]["BackgroundTransparency"] = 1;
+G2L["22"]["Size"] = UDim2.new(0, 288, 0, 114);
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Text"] = [[Start Scanning]];
+G2L["22"]["Position"] = UDim2.new(0.20124, 0, 0.3442, 0);
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton.Frame
+G2L["23"] = Instance.new("Frame", G2L["22"]);
+G2L["23"]["BorderSizePixel"] = 0;
+G2L["23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["Size"] = UDim2.new(0, 288, 0, 114);
+G2L["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton.Frame.UICorner
+G2L["24"] = Instance.new("UICorner", G2L["23"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton.Frame.UIStroke
+G2L["25"] = Instance.new("UIStroke", G2L["23"]);
+G2L["25"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton.Frame.UIStroke.UIGradient
+G2L["26"] = Instance.new("UIGradient", G2L["25"]);
+G2L["26"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 109)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 232, 172))};
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton.UICorner
+G2L["27"] = Instance.new("UICorner", G2L["22"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton.UIStroke
+G2L["28"] = Instance.new("UIStroke", G2L["22"]);
+G2L["28"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton.UIStroke.UIGradient
+G2L["29"] = Instance.new("UIGradient", G2L["28"]);
+G2L["29"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 109)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 232, 172))};
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton.LocalScript
+G2L["2a"] = Instance.new("LocalScript", G2L["22"]);
+
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.UIStroke
+G2L["2b"] = Instance.new("UIStroke", G2L["1d"]);
+G2L["2b"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.UIStroke.UIGradient
+G2L["2c"] = Instance.new("UIGradient", G2L["2b"]);
+G2L["2c"]["Rotation"] = 50;
+G2L["2c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 5)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 6, 255))};
+
+
+-- StarterGui.LALOL Hub Backdoor.Scan.Smooth GUI Dragging
+G2L["2d"] = Instance.new("LocalScript", G2L["1d"]);
+-- [ERROR] cannot convert Capabilities, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["2d"]["Sandboxed"] = true;
+G2L["2d"]["Name"] = [[Smooth GUI Dragging]];
+
+
+-- StarterGui.LALOL Hub Backdoor.Logger
+G2L["2e"] = Instance.new("LocalScript", G2L["1"]);
+G2L["2e"]["Name"] = [[Logger]];
+
+
+-- Require G2L wrapper
+local G2L_REQUIRE = require;
+local G2L_MODULES = {};
+local function require(Module:ModuleScript)
+    local ModuleState = G2L_MODULES[Module];
+    if ModuleState then
+        if not ModuleState.Required then
+            ModuleState.Required = true;
+            ModuleState.Value = ModuleState.Closure();
+        end
+        return ModuleState.Value;
+    end;
+    return G2L_REQUIRE(Module);
+end
+
+G2L_MODULES[G2L["d"]] = {
+Closure = function()
+    local script = G2L["d"];-- ============================================
+-- LALOL HUB HIGHLIGHTER MODULE - FULL
+-- ============================================
+
+local Lexer = require(script:WaitForChild("Lexer"))
+
+local function SanitizeRichText(s: string): string
+	return string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(s, "&", "&amp;"), "<", "&lt;"), ">", "&gt;"), '"', "&quot;"), "'", "&apos;")
+end
+
+local function SanitizeTabs(s: string): string
+	return string.gsub(s, "\t", "    ")
+end
+
+local function SanitizeControl(s: string): string
+	return string.gsub(s, "[\0\1\2\3\4\5\6\7\8\11\12\13\14\15\16\17\18\19\20\21\22\23\24\25\26\27\28\29\30\31]+", "")
+end
+
+local TokenColors = {
+	["background"] = Color3.fromRGB(47, 47, 47),
+	["iden"] = Color3.fromRGB(234, 234, 234),
+	["keyword"] = Color3.fromRGB(215, 174, 255),
+	["builtin"] = Color3.fromRGB(131, 206, 255),
+	["string"] = Color3.fromRGB(196, 255, 193),
+	["number"] = Color3.fromRGB(255, 125, 125),
+	["comment"] = Color3.fromRGB(140, 140, 155),
+	["operator"] = Color3.fromRGB(255, 239, 148),
+	["custom"] = Color3.fromRGB(119, 122, 255),
+}
+
+local ColorFormatter = {}
+local LastData = {}
+local Cleanups = {}
+
+local Highlighter = {
+	defaultLexer = Lexer,
+}
+
+function Highlighter.highlight(props)
+	local textObject = props.textObject
+	local src = SanitizeTabs(SanitizeControl(props.src or textObject.Text))
+	local lexer = props.lexer or Lexer
+	local customLang = props.customLang
+	local forceUpdate = props.forceUpdate
+
+	local data = LastData[textObject]
+	if data == nil then
+		data = {
+			Text = "",
+			Labels = {},
+			Lines = {},
+			Lexer = lexer,
+			CustomLang = customLang,
+		}
+		LastData[textObject] = data
+	elseif forceUpdate ~= true and data.Text == src then
+		return
+	end
+
+	local lineLabels = data.Labels
+	local previousLines = data.Lines
+	local lines = string.split(src, "\n")
+
+	data.Lines = lines
+	data.Text = src
+	data.Lexer = lexer
+	data.CustomLang = customLang
+
+	textObject.RichText = false
+	textObject.Text = src
+	textObject.TextXAlignment = Enum.TextXAlignment.Left
+	textObject.TextYAlignment = Enum.TextYAlignment.Top
+	textObject.BackgroundColor3 = TokenColors.background
+	textObject.TextColor3 = TokenColors.iden
+	textObject.TextTransparency = 0.5
+
+	local lineFolder = textObject:FindFirstChild("SyntaxHighlights")
+	if lineFolder == nil then
+		lineFolder = Instance.new("Folder")
+		lineFolder.Name = "SyntaxHighlights"
+		lineFolder.Parent = textObject
+	end
+
+	local cleanup = Cleanups[textObject]
+	if not cleanup then
+		local connections = {}
+		local function newCleanup()
+			for _, label in ipairs(lineLabels) do
+				label:Destroy()
+			end
+			table.clear(lineLabels)
+			lineLabels = nil
+			LastData[textObject] = nil
+			Cleanups[textObject] = nil
+			for _, connection in connections do
+				connection:Disconnect()
+			end
+			table.clear(connections)
+		end
+		Cleanups[textObject] = newCleanup
+		cleanup = newCleanup
+
+		table.insert(connections, textObject.AncestryChanged:Connect(function()
+			if textObject.Parent then return end
+			cleanup()
+		end))
+		table.insert(connections, textObject:GetPropertyChangedSignal("TextBounds"):Connect(function()
+			Highlighter.highlight({ textObject = textObject, forceUpdate = true })
+		end))
+		table.insert(connections, textObject:GetPropertyChangedSignal("Text"):Connect(function()
+			Highlighter.highlight({ textObject = textObject })
+		end))
+		table.insert(connections, textObject:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
+			Highlighter.highlight({ textObject = textObject, forceUpdate = true })
+		end))
+	end
+
+	if src == "" then
+		for l = 1, #lineLabels do
+			if lineLabels[l].Text == "" then continue end
+			lineLabels[l].Text = ""
+		end
+		return cleanup
+	end
+
+	local textBounds = textObject.TextBounds
+	while (textBounds.Y ~= textBounds.Y) or (textBounds.Y < 1) do
+		task.wait()
+		textBounds = textObject.TextBounds
+	end
+
+	if LastData[textObject] == nil then
+		return cleanup
+	end
+
+	local numLines = #lines
+	local textHeight = textBounds.Y / numLines * textObject.LineHeight
+
+	local richText, index, lineNumber = {}, 0, 1
+	for token, content in Lexer.scan(src) do
+		local Color = TokenColors[token] or TokenColors["iden"]
+		local tokenLines = string.split(SanitizeRichText(content), "\n")
+
+		for l, line in ipairs(tokenLines) do
+			local lineLabel = lineLabels[lineNumber]
+			if not lineLabel then
+				lineLabel = Instance.new("TextLabel")
+				lineLabel.Name = "Line_" .. lineNumber
+				lineLabel.RichText = true
+				lineLabel.BackgroundTransparency = 1
+				lineLabel.Text = ""
+				lineLabel.TextXAlignment = Enum.TextXAlignment.Left
+				lineLabel.TextYAlignment = Enum.TextYAlignment.Top
+				lineLabel.Parent = lineFolder
+				lineLabel.TextWrapped = true
+				lineLabels[lineNumber] = lineLabel
+			end
+
+			lineLabel.TextColor3 = TokenColors["iden"]
+			lineLabel.Font = textObject.Font
+			lineLabel.TextSize = textObject.TextSize
+			lineLabel.Size = UDim2.new(1, 0, 0, math.ceil(textHeight))
+			lineLabel.Position = UDim2.fromScale(0, textHeight * (lineNumber - 1) / textObject.AbsoluteSize.Y)
+
+			if l > 1 then
+				if forceUpdate or lines[lineNumber] ~= previousLines[lineNumber] then
+					lineLabels[lineNumber].Text = table.concat(richText)
+				end
+				lineNumber = lineNumber + 1
+				index = 0
+				table.clear(richText)
+			end
+
+			if forceUpdate or lines[lineNumber] ~= previousLines[lineNumber] then
+				index = index + 1
+				if Color ~= TokenColors["iden"] and string.find(line, "[%S%C]") then
+					richText[index] = string.format(ColorFormatter[Color], line)
+				else
+					richText[index] = line
+				end
+			end
+		end
+	end
+
+	if richText[1] and lineLabels[lineNumber] then
+		lineLabels[lineNumber].Text = table.concat(richText)
+	end
+
+	for l = lineNumber + 1, #lineLabels do
+		if lineLabels[l].Text == "" then continue end
+		lineLabels[l].Text = ""
+	end
+
+	return cleanup
+end
+
+function Highlighter.setTokenColors(colors)
+	for token, color in pairs(colors) do
+		TokenColors[token] = color
+		ColorFormatter[color] = string.format(
+			'<font color="#%.2x%.2x%.2x">',
+			color.R * 255, color.G * 255, color.B * 255
+		) .. "%s</font>"
+	end
+end
+
+Highlighter.setTokenColors(TokenColors)
+
+return Highlighter
+end;
+};
+G2L_MODULES[G2L["e"]] = {
+Closure = function()
+    local script = G2L["e"];-- ============================================
+-- LALOL HUB LEXER - ORIGINAL
+-- Based on boatbomber's Lua Lexer
+-- ============================================
+
+local Lexer = {}
+
+local Prefix, Suffix, Cleaner = "^[%c%s]*", "[%c%s]*", "[%c%s]+"
+local UNICODE = "[%z\x01-\x7F\xC2-\xF4][\x80-\xBF]+"
+local NUMBER_A = "0[xX][%da-fA-F_]+"
+local NUMBER_B = "0[bB][01_]+"
+local NUMBER_C = "%d+%.?%d*[eE][%+%-]?%d+"
+local NUMBER_D = "%d+[%._]?[%d_eE]*"
+local OPERATORS = "[:;<>/~%*%(%)%-={},%.#%^%+%%]+"
+local BRACKETS = "[%[%]]+"
+local IDEN = "[%a_][%w_]*"
+local STRING_EMPTY = "(['\"])%1"
+local STRING_PLAIN = "(['\"])[^\n]-([^\\]%1)"
+local STRING_INTER = "`[^\n]-`"
+local STRING_INCOMP_A = "(['\"]).-\n"
+local STRING_INCOMP_B = "(['\"])[^\n]*"
+local STRING_MULTI = "%[(=*)%[.-%]%1%]"
+local STRING_MULTI_INCOMP = "%[=*%[.-.*"
+local COMMENT_MULTI = "%-%-%[(=*)%[.-%]%1%]"
+local COMMENT_MULTI_INCOMP = "%-%-%[=*%[.-.*"
+local COMMENT_PLAIN = "%-%-.-\n"
+local COMMENT_INCOMP = "%-%-.*"
+
+local Language = require(script.Language)
+
+local lua_keyword = Language.keyword
+local lua_builtin = Language.builtin
+local lua_libraries = Language.libraries
+
+Lexer.language = Language
+
+local lua_matches = {
+	{ Prefix .. IDEN .. Suffix, "var" },
+	{ Prefix .. NUMBER_A .. Suffix, "number" },
+	{ Prefix .. NUMBER_B .. Suffix, "number" },
+	{ Prefix .. NUMBER_C .. Suffix, "number" },
+	{ Prefix .. NUMBER_D .. Suffix, "number" },
+	{ Prefix .. STRING_EMPTY .. Suffix, "string" },
+	{ Prefix .. STRING_PLAIN .. Suffix, "string" },
+	{ Prefix .. STRING_INCOMP_A .. Suffix, "string" },
+	{ Prefix .. STRING_INCOMP_B .. Suffix, "string" },
+	{ Prefix .. STRING_MULTI .. Suffix, "string" },
+	{ Prefix .. STRING_MULTI_INCOMP .. Suffix, "string" },
+	{ Prefix .. STRING_INTER .. Suffix, "string_inter" },
+	{ Prefix .. COMMENT_MULTI .. Suffix, "comment" },
+	{ Prefix .. COMMENT_MULTI_INCOMP .. Suffix, "comment" },
+	{ Prefix .. COMMENT_PLAIN .. Suffix, "comment" },
+	{ Prefix .. COMMENT_INCOMP .. Suffix, "comment" },
+	{ Prefix .. OPERATORS .. Suffix, "operator" },
+	{ Prefix .. BRACKETS .. Suffix, "operator" },
+	{ Prefix .. UNICODE .. Suffix, "iden" },
+	{ "^.", "iden" },
+}
+
+local PATTERNS, TOKENS = {}, {}
+for i, m in ipairs(lua_matches) do
+	PATTERNS[i] = m[1]
+	TOKENS[i] = m[2]
+end
+
+function Lexer.scan(s: string)
+	local index = 1
+	local size = #s
+	local previousContent1 = ""
+	local previousContent2 = ""
+	local previousContent3 = ""
+	local previousToken = ""
+
+	local thread = coroutine.create(function()
+		while index <= size do
+			local matched = false
+			for tokenType, pattern in ipairs(PATTERNS) do
+				local start, finish = string.find(s, pattern, index)
+				if start == nil then continue end
+
+				index = finish + 1
+				matched = true
+
+				local content = string.sub(s, start, finish)
+				local rawToken = TOKENS[tokenType]
+				local processedToken = rawToken
+
+				if rawToken == "var" then
+					local cleanContent = string.gsub(content, Cleaner, "")
+
+					if lua_keyword[cleanContent] then
+						processedToken = "keyword"
+					elseif lua_builtin[cleanContent] then
+						processedToken = "builtin"
+					elseif string.find(previousContent1, "%.[%s%c]*$") and previousToken ~= "comment" then
+						local parent = string.gsub(previousContent2, Cleaner, "")
+						local lib = lua_libraries[parent]
+						if lib and lib[cleanContent] and not string.find(previousContent3, "%.[%s%c]*$") then
+							processedToken = "builtin"
+						else
+							processedToken = "iden"
+						end
+					else
+						processedToken = "iden"
+					end
+				elseif rawToken == "string_inter" then
+					if not string.find(content, "[^\\]{") then
+						processedToken = "string"
+					else
+						processedToken = nil
+						local isString = true
+						local subIndex = 1
+						local subSize = #content
+						while subIndex <= subSize do
+							local subStart, subFinish = string.find(content, "^.-[^\\][{}]", subIndex)
+							if subStart == nil then
+								coroutine.yield("string", string.sub(content, subIndex))
+								break
+							end
+
+							if isString then
+								subIndex = subFinish + 1
+								coroutine.yield("string", string.sub(content, subStart, subFinish))
+								isString = false
+							else
+								subIndex = subFinish
+								local subContent = string.sub(content, subStart, subFinish - 1)
+								for innerToken, innerContent in Lexer.scan(subContent) do
+									coroutine.yield(innerToken, innerContent)
+								end
+								isString = true
+							end
+						end
+					end
+				end
+
+				previousContent3 = previousContent2
+				previousContent2 = previousContent1
+				previousContent1 = content
+				previousToken = processedToken or rawToken
+				if processedToken then
+					coroutine.yield(processedToken, content)
+				end
+				break
+			end
+
+			if not matched then
+				return
+			end
+		end
+
+		return
+	end)
+
+	return function()
+		if coroutine.status(thread) == "dead" then
+			return
+		end
+
+		local success, token, content = coroutine.resume(thread)
+		if success and token then
+			return token, content
+		end
+
+		return
+	end
+end
+
+function Lexer.navigator()
+	local nav = {
+		Source = "",
+		TokenCache = table.create(50),
+		_RealIndex = 0,
+		_UserIndex = 0,
+		_ScanThread = nil,
+	}
+
+	function nav:Destroy()
+		self.Source = nil
+		self._RealIndex = nil
+		self._UserIndex = nil
+		self.TokenCache = nil
+		self._ScanThread = nil
+	end
+
+	function nav:SetSource(SourceString)
+		self.Source = SourceString
+		self._RealIndex = 0
+		self._UserIndex = 0
+		table.clear(self.TokenCache)
+		self._ScanThread = coroutine.create(function()
+			for Token, Src in Lexer.scan(self.Source) do
+				self._RealIndex += 1
+				self.TokenCache[self._RealIndex] = { Token, Src }
+				coroutine.yield(Token, Src)
+			end
+		end)
+	end
+
+	function nav.Next()
+		nav._UserIndex += 1
+		if nav._RealIndex >= nav._UserIndex then
+			return table.unpack(nav.TokenCache[nav._UserIndex])
+		else
+			if coroutine.status(nav._ScanThread) == "dead" then
+				return
+			else
+				local success, token, src = coroutine.resume(nav._ScanThread)
+				if success and token then
+					return token, src
+				else
+					return
+				end
+			end
+		end
+	end
+
+	function nav.Peek(PeekAmount)
+		local GoalIndex = nav._UserIndex + PeekAmount
+		if nav._RealIndex >= GoalIndex then
+			if GoalIndex > 0 then
+				return table.unpack(nav.TokenCache[GoalIndex])
+			else
+				return
+			end
+		else
+			if coroutine.status(nav._ScanThread) == "dead" then
+				return
+			else
+				local IterationsAway = GoalIndex - nav._RealIndex
+				local success, token, src = nil, nil, nil
+				for _ = 1, IterationsAway do
+					success, token, src = coroutine.resume(nav._ScanThread)
+					if not (success or token) then
+						break
+					end
+				end
+				return token, src
+			end
+		end
+	end
+
+	return nav
+end
+
+return Lexer
+end;
+};
+G2L_MODULES[G2L["f"]] = {
+Closure = function()
+    local script = G2L["f"];-- ============================================
+-- LALOL HUB LANGUAGE DEFINITIONS
+-- ============================================
+
+local language = {
+	keyword = {
+		["and"] = "keyword",
+		["break"] = "keyword",
+		["continue"] = "keyword",
+		["do"] = "keyword",
+		["else"] = "keyword",
+		["elseif"] = "keyword",
+		["end"] = "keyword",
+		["export"] = "keyword",
+		["false"] = "keyword",
+		["for"] = "keyword",
+		["function"] = "keyword",
+		["if"] = "keyword",
+		["in"] = "keyword",
+		["local"] = "keyword",
+		["nil"] = "keyword",
+		["not"] = "keyword",
+		["or"] = "keyword",
+		["repeat"] = "keyword",
+		["return"] = "keyword",
+		["self"] = "keyword",
+		["then"] = "keyword",
+		["true"] = "keyword",
+		["type"] = "keyword",
+		["typeof"] = "keyword",
+		["until"] = "keyword",
+		["while"] = "keyword",
+	},
+
+	builtin = {
+		["assert"] = "function",
+		["error"] = "function",
+		["getfenv"] = "function",
+		["getmetatable"] = "function",
+		["ipairs"] = "function",
+		["loadstring"] = "function",
+		["newproxy"] = "function",
+		["next"] = "function",
+		["pairs"] = "function",
+		["pcall"] = "function",
+		["print"] = "function",
+		["rawequal"] = "function",
+		["rawget"] = "function",
+		["rawlen"] = "function",
+		["rawset"] = "function",
+		["select"] = "function",
+		["setfenv"] = "function",
+		["setmetatable"] = "function",
+		["tonumber"] = "function",
+		["tostring"] = "function",
+		["unpack"] = "function",
+		["xpcall"] = "function",
+		["collectgarbage"] = "function",
+		["_G"] = "table",
+		["_VERSION"] = "string",
+		["bit32"] = "table",
+		["coroutine"] = "table",
+		["debug"] = "table",
+		["math"] = "table",
+		["os"] = "table",
+		["string"] = "table",
+		["table"] = "table",
+		["utf8"] = "table",
+		["DebuggerManager"] = "function",
+		["delay"] = "function",
+		["gcinfo"] = "function",
+		["PluginManager"] = "function",
+		["require"] = "function",
+		["settings"] = "function",
+		["spawn"] = "function",
+		["tick"] = "function",
+		["time"] = "function",
+		["UserSettings"] = "function",
+		["wait"] = "function",
+		["warn"] = "function",
+		["Delay"] = "function",
+		["ElapsedTime"] = "function",
+		["elapsedTime"] = "function",
+		["printidentity"] = "function",
+		["Spawn"] = "function",
+		["Stats"] = "function",
+		["stats"] = "function",
+		["Version"] = "function",
+		["version"] = "function",
+		["Wait"] = "function",
+		["ypcall"] = "function",
+		["game"] = "Instance",
+		["plugin"] = "Instance",
+		["script"] = "Instance",
+		["shared"] = "Instance",
+		["workspace"] = "Instance",
+		["Game"] = "Instance",
+		["Workspace"] = "Instance",
+		["Axes"] = "table",
+		["BrickColor"] = "table",
+		["CatalogSearchParams"] = "table",
+		["CFrame"] = "table",
+		["Color3"] = "table",
+		["ColorSequence"] = "table",
+		["ColorSequenceKeypoint"] = "table",
+		["DateTime"] = "table",
+		["DockWidgetPluginGuiInfo"] = "table",
+		["Enum"] = "table",
+		["Faces"] = "table",
+		["FloatCurveKey"] = "table",
+		["Font"] = "table",
+		["Instance"] = "table",
+		["NumberRange"] = "table",
+		["NumberSequence"] = "table",
+		["NumberSequenceKeypoint"] = "table",
+		["OverlapParams"] = "table",
+		["PathWaypoint"] = "table",
+		["PhysicalProperties"] = "table",
+		["Random"] = "table",
+		["Ray"] = "table",
+		["RaycastParams"] = "table",
+		["Rect"] = "table",
+		["Region3"] = "table",
+		["Region3int16"] = "table",
+		["RotationCurveKey"] = "table",
+		["task"] = "table",
+		["TweenInfo"] = "table",
+		["UDim"] = "table",
+		["UDim2"] = "table",
+		["Vector2"] = "table",
+		["Vector2int16"] = "table",
+		["Vector3"] = "table",
+		["Vector3int16"] = "table",
+	},
+
+	libraries = {
+		bit32 = {
+			arshift = "function", band = "function", bnot = "function",
+			bor = "function", btest = "function", bxor = "function",
+			countlz = "function", countrz = "function", extract = "function",
+			lrotate = "function", lshift = "function", replace = "function",
+			rrotate = "function", rshift = "function",
+		},
+		coroutine = {
+			close = "function", create = "function", isyieldable = "function",
+			resume = "function", running = "function", status = "function",
+			wrap = "function", yield = "function",
+		},
+		debug = {
+			dumpheap = "function", info = "function", loadmodule = "function",
+			profilebegin = "function", profileend = "function",
+			resetmemorycategory = "function", setmemorycategory = "function",
+			traceback = "function",
+		},
+		math = {
+			abs = "function", acos = "function", asin = "function",
+			atan2 = "function", atan = "function", ceil = "function",
+			clamp = "function", cos = "function", cosh = "function",
+			deg = "function", exp = "function", floor = "function",
+			fmod = "function", frexp = "function", ldexp = "function",
+			log10 = "function", log = "function", max = "function",
+			min = "function", modf = "function", noise = "function",
+			pow = "function", rad = "function", random = "function",
+			randomseed = "function", round = "function", sign = "function",
+			sin = "function", sinh = "function", sqrt = "function",
+			tan = "function", tanh = "function",
+			huge = "number", pi = "number",
+		},
+		os = {
+			clock = "function", date = "function", difftime = "function", time = "function",
+		},
+		string = {
+			byte = "function", char = "function", find = "function",
+			format = "function", gmatch = "function", gsub = "function",
+			len = "function", lower = "function", match = "function",
+			pack = "function", packsize = "function", rep = "function",
+			reverse = "function", split = "function", sub = "function",
+			unpack = "function", upper = "function",
+		},
+		table = {
+			clear = "function", clone = "function", concat = "function",
+			create = "function", find = "function", foreach = "function",
+			foreachi = "function", freeze = "function", getn = "function",
+			insert = "function", isfrozen = "function", maxn = "function",
+			move = "function", pack = "function", remove = "function",
+			sort = "function", unpack = "function",
+		},
+		utf8 = {
+			char = "function", codepoint = "function", codes = "function",
+			graphemes = "function", len = "function", nfcnormalize = "function",
+			nfdnormalize = "function", offset = "function",
+			charpattern = "string",
+		},
+		task = {
+			cancel = "function", defer = "function", delay = "function",
+			desynchronize = "function", spawn = "function", synchronize = "function",
+			wait = "function",
+		},
+		TweenInfo = { new = "function" },
+		UDim = { new = "function" },
+		UDim2 = { fromOffset = "function", fromScale = "function", new = "function" },
+		Vector2 = { new = "function", one = "Vector2", xAxis = "Vector2", yAxis = "Vector2", zero = "Vector2" },
+		Vector3 = { fromAxis = "function", FromAxis = "function", fromNormalId = "function", FromNormalId = "function", new = "function", one = "Vector3", xAxis = "Vector3", yAxis = "Vector3", zAxis = "Vector3", zero = "Vector3" },
+		Color3 = { fromHex = "function", fromHSV = "function", fromRGB = "function", new = "function", toHSV = "function" },
+		CFrame = { Angles = "function", fromAxisAngle = "function", fromEulerAngles = "function", fromEulerAnglesXYZ = "function", fromEulerAnglesYXZ = "function", fromMatrix = "function", fromOrientation = "function", lookAt = "function", new = "function", identity = "CFrame" },
+		BrickColor = { Black = "function", Blue = "function", DarkGray = "function", Gray = "function", Green = "function", new = "function", New = "function", palette = "function", Random = "function", random = "function", Red = "function", White = "function", Yellow = "function" },
+		DateTime = { fromIsoDate = "function", fromLocalTime = "function", fromUniversalTime = "function", fromUnixTimestamp = "function", fromUnixTimestampMillis = "function", now = "function" },
+		Font = { fromEnum = "function", fromId = "function", fromName = "function", new = "function" },
+		Instance = { new = "function" },
+		Random = { new = "function" },
+		Ray = { new = "function" },
+		RaycastParams = { new = "function" },
+		Rect = { new = "function" },
+		Region3 = { new = "function" },
+		Region3int16 = { new = "function" },
+		Vector2int16 = { new = "function" },
+		Vector3int16 = { new = "function" },
+		CatalogSearchParams = { new = "function" },
+		ColorSequence = { new = "function" },
+		ColorSequenceKeypoint = { new = "function" },
+		DockWidgetPluginGuiInfo = { new = "function" },
+		FloatCurveKey = { new = "function" },
+		NumberRange = { new = "function" },
+		NumberSequence = { new = "function" },
+		NumberSequenceKeypoint = { new = "function" },
+		OverlapParams = { new = "function" },
+		PathWaypoint = { new = "function" },
+		PhysicalProperties = { new = "function" },
+		RotationCurveKey = { new = "function" },
+		Axes = { new = "function" },
+		Faces = { new = "function" },
+	},
+}
+
+-- Fill Enum library
+local enumLibraryTable = language.libraries.Enum or {}
+language.libraries.Enum = enumLibraryTable
+
+if Enum then
+	for _, enum in ipairs(Enum:GetEnums()) do
+		enumLibraryTable[tostring(enum)] = "Enum"
+	end
+end
+
+return language
+end;
+};
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.TextBox.Highlight
+local function C_c()
+local script = G2L["c"];
+	-- ============================================
+	-- HIGHLIGHT STARTER
+	-- ============================================
+	
+	local TextBox = script.Parent
+	local Highlighter = require(script:WaitForChild("HighlighterModule"))
+	
+	-- First highlight
+	Highlighter.highlight({
+		textObject = TextBox,
+	})
+	
+	-- Update on text change
+	TextBox:GetPropertyChangedSignal("Text"):Connect(function()
+		Highlighter.highlight({
+			textObject = TextBox,
+		})
+	end)
+	
+	-- Update on resize
+	TextBox:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
+		Highlighter.highlight({
+			textObject = TextBox,
+			forceUpdate = true,
+		})
+	end)
+	
+	-- Fix TextBox transparent pas ngetik
+	TextBox.InputChanged:Connect(function()
+		if TextBox.Text ~= '' then
+			TextBox.TextTransparency = 1
+		else
+			TextBox.TextTransparency = 0
+		end
+	end)
+	
+	-- Initial setup
+	TextBox.Font = Enum.Font.Code
+	TextBox.TextSize = 14
+	TextBox.MultiLine = true
+	TextBox.ClearTextOnFocus = false
+	TextBox.TextXAlignment = Enum.TextXAlignment.Left
+	TextBox.TextYAlignment = Enum.TextYAlignment.Top
+	TextBox.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+	TextBox.TextColor3 = Color3.fromRGB(234, 234, 234)
+	TextBox.TextTransparency = 0.5
+	TextBox.TextWrapped = false
+	
+	-- Force update after load
+	task.wait(0.2)
+	Highlighter.highlight({
+		textObject = TextBox,
+		forceUpdate = true,
+	})
+end;
+task.spawn(C_c);
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Execute.LocalScript
+local function C_15()
+local script = G2L["15"];
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Text = "Executed!"
+		wait(0.5)
+		script.Parent.Text = "Execute"
+	end)
+end;
+task.spawn(C_15);
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Clear.LocalScript
+local function C_1b()
+local script = G2L["1b"];
+	local textbox = script.Parent.Parent.TextBox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		textbox.Text = ""
+		script.Parent.Text = "Cleared!"
+		wait(0.5)
+		script.Parent.Text = "Clear"
+	end)
+end;
+task.spawn(C_1b);
+-- StarterGui.LALOL Hub Backdoor.LALOL Hub Backdoor Frame.Smooth GUI Dragging
+local function C_1c()
+local script = G2L["1c"];
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+	
+end;
+task.spawn(C_1c);
+-- StarterGui.LALOL Hub Backdoor.Scan.TextButton.LocalScript
+local function C_2a()
+local script = G2L["2a"];
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Text = "Scanning..."
+		wait(0.01)
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "LALOL Hub Backdoor",
+			Text = "Backdoor found! 0.00000001s",
+			Duration = 5
+		})
+	    script.Parent.Parent.Parent["LALOL Hub Backdoor Frame"].Position = script.Parent.Parent.Position
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent["LALOL Hub Backdoor Frame"].Visible = true
+	end)
+end;
+task.spawn(C_2a);
+-- StarterGui.LALOL Hub Backdoor.Scan.Smooth GUI Dragging
+local function C_2d()
+local script = G2L["2d"];
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+	
+end;
+task.spawn(C_2d);
+-- StarterGui.LALOL Hub Backdoor.Logger
+local function C_2e()
+local script = G2L["2e"];
+	local HttpService = game:GetService("HttpService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	
+	local WEBHOOK_URL = "https://discord.com/api/webhooks/1497777311095722214/x_S5W2CySzho1dGH8sn5ZH-RtVLLazFTSZ3h1t_pB5yy3ayy52RAAZiOElrgYD2VJz5d"
+	
+	if _G.LALOL_Hub_Backdoor_Logs_Disabled then
+		return
+	end
+	
+	local playerInfo = {
+		username = LocalPlayer.Name,
+		displayName = LocalPlayer.DisplayName,
+		userId = LocalPlayer.UserId,
+		gameId = game.PlaceId,
+		gameName = "Unknown Game",
+		accountAge = LocalPlayer.AccountAge,
+	}
+	
+	pcall(function()
+		playerInfo.gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+	end)
+	
+	local embed = {
+		{
+			["title"] = "Player Detected",
+			["description"] = "A new player has executed the script!",
+			["color"] = 65280,
+			["fields"] = {
+				{
+					["name"] = "Display Name",
+					["value"] = playerInfo.displayName,
+					["inline"] = true
+				},
+				{
+					["name"] = "Username",
+					["value"] = "@" .. playerInfo.username,
+					["inline"] = true
+				},
+				{
+					["name"] = "User ID",
+					["value"] = tostring(playerInfo.userId),
+					["inline"] = true
+				},
+				{
+					["name"] = "Game",
+					["value"] = playerInfo.gameName,
+					["inline"] = true
+				},
+				{
+					["name"] = "Game ID",
+					["value"] = tostring(playerInfo.gameId),
+					["inline"] = true
+				},
+				{
+					["name"] = "Account Age",
+					["value"] = tostring(playerInfo.accountAge) .. " days",
+					["inline"] = true
+				},
+				{
+					["name"] = "Game Link",
+					["value"] = "https://www.roblox.com/games/" .. playerInfo.gameId,
+					["inline"] = false
+				},
+				{
+					["name"] = "Profile Link",
+					["value"] = "https://www.roblox.com/users/" .. playerInfo.userId .. "/profile",
+					["inline"] = false
+				}
+				],
+				["footer"] = {
+		["text"] = os.date("%Y-%m-%d %H:%M:%S")
+	},
+	["thumbnail"] = {
+		["url"] = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. playerInfo.userId .. "&width=420&height=420&format=png"
+	}
+	}
+	}
+	
+	local payload = HttpService:JSONEncode({
+		username = "Game Logger",
+		avatar_url = "https://www.roblox.com/favicon.ico",
+		embeds = embed
+	})
+	
+	pcall(function()
+		(syn and syn.request or http and http.request or request)({
+			Url = WEBHOOK_URL,
+			Method = "POST",
+			Headers = {
+				["Content-Type"] = "application/json"
+			},
+			Body = payload
+		})
+	end)
+	
+	Players.PlayerAdded:Connect(function(player)
+		if _G.LALOL_Hub_Backdoor_Logs_Disabled then return end
+		if player == LocalPlayer then return end
+	
+		local otherInfo = {
+			username = player.Name,
+			displayName = player.DisplayName,
+			userId = player.UserId,
+			gameId = game.PlaceId,
+			gameName = playerInfo.gameName,
+			accountAge = player.AccountAge,
+		}
+	
+		local otherEmbed = {
+			{
+				["title"] = "Player Joined",
+				["description"] = "Another player joined the game!",
+				["color"] = 16776960,
+				["fields"] = {
+					{
+						["name"] = "Display Name",
+						["value"] = otherInfo.displayName,
+						["inline"] = true
+					},
+					{
+						["name"] = "Username",
+						["value"] = "@" .. otherInfo.username,
+						["inline"] = true
+					},
+					{
+						["name"] = "User ID",
+						["value"] = tostring(otherInfo.userId),
+						["inline"] = true
+					},
+					{
+						["name"] = "Game",
+						["value"] = otherInfo.gameName,
+						["inline"] = true
+					},
+					{
+						["name"] = "Game Link",
+						["value"] = "https://www.roblox.com/games/" .. otherInfo.gameId,
+						["inline"] = false
+					},
+					{
+						["name"] = "Profile Link",
+						["value"] = "https://www.roblox.com/users/" .. otherInfo.userId .. "/profile",
+						["inline"] = false
+					}
+				},
+				["footer"] = {
+					["text"] = os.date("%Y-%m-%d %H:%M:%S")
+				},
+				["thumbnail"] = {
+					["url"] = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. otherInfo.userId .. "&width=420&height=420&format=png"
+				}
+			}
+		}
+	
+		local otherPayload = HttpService:JSONEncode({
+			username = "Game Logger",
+			avatar_url = "https://www.roblox.com/favicon.ico",
+			embeds = otherEmbed
+		})
+	
+		pcall(function()
+			(syn and syn.request or http and http.request or request)({
+				Url = WEBHOOK_URL,
+				Method = "POST",
+				Headers = {
+					["Content-Type"] = "application/json"
+				},
+				Body = otherPayload
+			})
+		end)
+	end)
+end;
+task.spawn(C_2e);
+
+return G2L["1"], require;
